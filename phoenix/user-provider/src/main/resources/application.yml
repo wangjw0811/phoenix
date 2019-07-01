@@ -1,0 +1,27 @@
+# Dubbo Protocol
+dubbo:
+  application:
+    name: user-provide
+  protocol:
+    name: dubbo
+    port: 20880
+  scan:
+    base-packages: com.phoenix.service.impl
+## Dubbo Registry
+  registry:
+    address: zookeeper://127.0.0.1:2181
+
+# 数据连接参数
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/phoenix?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8
+    username: root
+    password: wyh900811@sina.com
+
+
+
+# 扫描mapper.xml文件
+mybatis-plus:
+  typeAliasesPackage: com.phoenix.entity
+  mapper-locations: classpath:/mapper/*Mapper.xml

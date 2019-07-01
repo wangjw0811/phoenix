@@ -1,0 +1,11 @@
+# Dubbo Protocol
+dubbo:
+  application:
+    name: phoenix-consumer
+  protocol:
+    name: dubbo
+## Dubbo Registry
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  consumer:
+    check: false
