@@ -2,9 +2,16 @@
 dubbo:
   application:
     name: user-provide
-  protocol:
-    name: dubbo
-    port: 20880
+  protocols:
+    dubbo:
+      name: dubbo
+      port: 20880
+    webservice:
+      name: webservice
+      port: 8080
+    rest:
+      name: rest
+      port: 8888
   scan:
     base-packages: com.phoenix.service.impl
 ## Dubbo Registry

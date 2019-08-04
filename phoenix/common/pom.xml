@@ -10,11 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>common</artifactId>
-    <distributionManagement>
+    <!--<distributionManagement>
         <repository>
             <id>localRepository</id>
             <url>file:D:\Program Files\devsoft\java tools\repository</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement>-->
 
 </project>

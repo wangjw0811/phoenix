@@ -21,10 +21,10 @@
             <artifactId>validation-api</artifactId>
         </dependency>
     </dependencies>
-    <distributionManagement>
+    <!--<distributionManagement>
         <repository>
             <id>localRepository</id>
             <url>file:D:\Program Files\devsoft\java tools\repository</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement>-->
 </project>

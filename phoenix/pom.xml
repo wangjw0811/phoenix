@@ -19,6 +19,9 @@
         <mybatis-plus.version>3.1.1</mybatis-plus.version>
         <dubbo-boot.version>0.2.1.RELEASE</dubbo-boot.version>
         <dubbo.version>2.7.1</dubbo.version>
+        <cxf.version>3.1.15</cxf.version>
+        <resteasy.version>3.0.19.Final</resteasy.version>
+        <jetty.version>9.4.11.v20180605</jetty.version>
         <netty.version>4.1.36.Final</netty.version>
         <javassist.version>3.21.0-GA</javassist.version>
         <zkClient.version>0.9</zkClient.version>
@@ -91,6 +94,44 @@
                 <groupId>javax.validation</groupId>
                 <artifactId>validation-api</artifactId>
                 <version>${validation.version}</version>
+            </dependency>
+
+            <!--webservice 协议支持-->
+            <dependency>
+                <groupId>org.apache.cxf</groupId>
+                <artifactId>cxf-rt-frontend-simple</artifactId>
+                <version>${cxf.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.cxf</groupId>
+                <artifactId>cxf-rt-transports-http</artifactId>
+                <version>${cxf.version}</version>
+            </dependency>
+
+            <!--rest 协议支持-->
+            <dependency>
+                <groupId>org.jboss.resteasy</groupId>
+                <artifactId>resteasy-jaxrs</artifactId>
+                <version>${resteasy.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jboss.resteasy</groupId>
+                <artifactId>resteasy-client</artifactId>
+                <version>${resteasy.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-server</artifactId>
+                <version>${jetty.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-servlet</artifactId>
+                <version>${jetty.version}</version>
             </dependency>
 
             <dependency>

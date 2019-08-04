@@ -19,6 +19,9 @@ import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,7 +29,7 @@ import java.util.List;
  * @author Jims Wang
  * @date 2019-06-08 21:34
  */
-@Service(version = "1.0.0")
+//@Service(version = "1.0.0",protocol = {"dubbo","rest"})
 public class UserServiceImpl extends ServiceImpl implements IUserService  {
     @Autowired
     private UserMapper userMapper;
