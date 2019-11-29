@@ -21,7 +21,7 @@
         <dubbo.version>2.7.1</dubbo.version>
         <cxf.version>3.1.15</cxf.version>
         <resteasy.version>3.0.19.Final</resteasy.version>
-        <jetty.version>9.4.11.v20180605</jetty.version>
+        <jetty.version>9.4.24.v20191120</jetty.version>
         <netty.version>4.1.36.Final</netty.version>
         <javassist.version>3.21.0-GA</javassist.version>
         <zkClient.version>0.9</zkClient.version>
