@@ -20,7 +20,7 @@
         <dubbo-boot.version>0.2.1.RELEASE</dubbo-boot.version>
         <dubbo.version>2.7.1</dubbo.version>
         <cxf.version>3.1.15</cxf.version>
-        <resteasy.version>3.0.19.Final</resteasy.version>
+        <resteasy.version>3.14.0.Final</resteasy.version>
         <jetty.version>9.4.11.v20180605</jetty.version>
         <netty.version>4.1.36.Final</netty.version>
         <javassist.version>3.21.0-GA</javassist.version>
